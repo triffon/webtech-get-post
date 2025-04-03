@@ -1,0 +1,52 @@
+:root {
+    --webtech-heading-font: Arial; /* News Cycle не поддържа кирилица, а Impact е грозен */
+}
+
+.reveal {
+    font-family: Arial; /* Lato от Google не поддържа кирилица */
+}
+
+.reveal li {
+    font-size: .8em;
+}
+
+.reveal h1 {
+    font-family: var(--webtech-heading-font);
+    font-size: 1.7em;
+    margin-bottom: 2ex;
+}
+
+.reveal h2 {
+    font-family: var(--webtech-heading-font);
+    font-size: 1.3em;
+    margin-bottom: 2ex;
+}
+
+.reveal h3 {
+    font-family: var(--webtech-heading-font);
+    font-size: .6em;
+    margin-bottom: 2ex;
+}
+
+.reveal h4 {
+    font-family: var(--webtech-heading-font);
+    font-size: .4em;
+    color: darkgray;
+}
+
+.reveal .attribution {
+    font-size: .4em;
+    color: lightgray;
+}
+
+.reveal table.webtech td {
+    font-size: .6em;
+    text-align: center;
+    border: solid 1px !important;
+    width: 30em;
+}
+
+.reveal .webtech th {
+    font-size: .8em;
+    text-align: center;
+}
